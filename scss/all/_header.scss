@@ -32,5 +32,35 @@ header {
         }
       }
     }
+
+    &__img{
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 512px) {
+  header {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: sticky;
+    backdrop-filter: blur(8px);
+
+    // example
+
+    .nav {
+      display: flex;
+      height: 70px;
+      align-items: center;
+      justify-content: space-between;
+
+      &__list {
+        display: none;
+      }
+      &__img{
+        display: block;
+      }
+    }
   }
 }

@@ -1,0 +1,176 @@
+#about {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  // background: var(--Gray-50, #f9fafb);
+  .container {
+    button {
+      display: flex;
+      padding: 4px 20px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      background: var(--Gray-200, #e5e7eb);
+      border: none;
+      color: var(--Gray-600, #4b5563);
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 48px;
+    }
+    button:hover {
+      background: var(--Gray-200, #b6b6b8);
+      color: #000;
+    }
+
+    .about__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      &--left {
+        img {
+          width: 420px;
+          height: 480px;
+          box-shadow: 0px 0px 0px grey;
+          transition: all 0.3s linear;
+        }
+
+        img:hover {
+          transition: all 0.3s linear;
+          box-shadow: 10px 5px 5px grey;
+        }
+      }
+      &--right {
+        h2 {
+          color: var(--Gray-900, #111827);
+          font-family: Inter;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 36px;
+          letter-spacing: -0.6px;
+          margin-bottom: 24px;
+        }
+
+        p {
+          color: var(--Gray-600, #4b5563);
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          margin-bottom: 16px;
+          width: 584px;
+        }
+        div {
+          display: flex;
+          ul {
+            li {
+              width: 287px;
+              color: var(--Gray-600, #4b5563);
+              font-family: Inter;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 24px;
+              margin-bottom: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 512px) {
+  #about {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    // background: var(--Gray-50, #f9fafb);
+    .container {
+      button {
+        display: flex;
+        padding: 4px 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        background: var(--Gray-200, #e5e7eb);
+        border: none;
+        color: var(--Gray-600, #4b5563);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 48px;
+      }
+      button:hover {
+        background: var(--Gray-200, #b6b6b8);
+        color: #000;
+      }
+
+      .about__wrapper {
+        display: flex;
+
+        flex-direction: column;
+        &--left {
+          img {
+            width: 420px;
+            height: 480px;
+            box-shadow: 0px 0px 0px grey;
+            transition: all 0.3s linear;
+            margin-bottom: 48px;
+          }
+
+          img:hover {
+            transition: all 0.3s linear;
+            box-shadow: 10px 5px 5px grey;
+          }
+        }
+        &--right {
+          h2 {
+            color: var(--Gray-900, #111827);
+            font-family: Inter;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 36px;
+            letter-spacing: -0.6px;
+            margin-bottom: 24px;
+          }
+
+          p {
+            color: var(--Gray-600, #4b5563);
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 16px;
+            width: 450px;
+          }
+          div {
+            display: flex;
+            ul {
+              li {
+                width: 287px;
+                color: var(--Gray-600, #4b5563);
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                margin-bottom: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
