@@ -908,6 +908,75 @@ footer .container .div4 .bottom__text {
   line-height: 24px;
 }
 
+@media screen and (max-width: 512px) {
+  #expierence {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  #expierence .container button {
+    display: flex;
+    padding: 4px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: var(--Gray-200, #e5e7eb);
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  #expierence .container button:hover {
+    color: #000;
+    background: var(--Gray-200, #afafaf);
+  }
+  #expierence .container .expierence__text {
+    color: var(--Gray-600, #4b5563);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 48px;
+  }
+  #expierence .container .expierence__wrapper {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    margin: 48px auto;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+  }
+  #expierence .container .expierence__wrapper div h2 {
+    color: var(--Gray-900, #111827);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+  #expierence .container .expierence__wrapper div ul li {
+    color: var(--Gray-600, #4b5563);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 350px;
+  }
+  #expierence .container .expierence__wrapper p {
+    color: var(--Gray-700, #374151);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
 #work {
   padding-top: 96px;
   padding-bottom: 96px;
