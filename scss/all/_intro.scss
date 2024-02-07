@@ -74,7 +74,7 @@
   }
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 375px) {
   #intro {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -87,12 +87,13 @@
           &-title {
             color: var(--Gray-900, #111827);
             font-family: Inter;
-            font-size: 50px;
+            font-size: 35px;
             font-style: normal;
             font-weight: 700;
             line-height: 72px;
             letter-spacing: -1.2px;
             margin-bottom: 8px;
+            margin-left: 58px;
           }
           &-text {
             color: var(--Gray-600, #4b5563);
@@ -102,12 +103,15 @@
             font-weight: 400;
             line-height: 24px;
             margin-bottom: 48px;
+            width: 300px;
+            margin-left: 60px;
           }
           div {
             display: flex;
             align-items: center;
             gap: 8px;
             margin-bottom: 8px;
+            margin-left: 60px;
 
             color: var(--Gray-600, #4b5563);
             font-family: Inter;
@@ -137,13 +141,12 @@
             width: 300px;
             height: 320px;
             transition: all 0.3s linear;
-
-            box-shadow: 0px 0px 0px grey;
+            box-shadow: 10px 5px 5px grey;
           }
 
           img:hover {
             transition: all 0.3s linear;
-            box-shadow: 10px 5px 5px grey;
+            box-shadow: 0px 0px 0px grey;
           }
         }
       }
