@@ -61,13 +61,13 @@
           width: 300px;
           height: 320px;
           transition: all 0.3s linear;
-
-          box-shadow: 0px 0px 0px grey;
+          box-shadow: 10px 5px 5px grey;
+          
         }
 
         img:hover {
           transition: all 0.3s linear;
-          box-shadow: 10px 5px 5px grey;
+          box-shadow: 0px 0px 0px grey;
         }
       }
     }
